@@ -1,0 +1,19 @@
+info:
+  app:
+    name: first-kubernetes-api
+    description: First Kubernetes API
+    version: @project.version@
+
+logging:
+  level:
+    pl.dc2software.first.kubernetes.api: DEBUG
+
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: ${SPRING_PROFILE:local}
+  ai:
+    openai:
+      api-key: ${openai-api-key}
