@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: first-api
-          image: dc2software/first-docker-repo:latest
+          image: dc2software/first-docker-repo:1.1.0
           ports:
             - containerPort: 8080
           env:

@@ -14,6 +14,21 @@ server:
 spring:
   profiles:
     active: ${SPRING_PROFILE:local}
+#  datasource:
+#    url: jdbc:mariadb://localhost:3306/first_api_db
+#    username: app
+#    password: ${db-password}
+#    driver-class-name: org.mariadb.jdbc.Driver
+#  jpa:
+#    database-platform: org.hibernate.dialect.MariaDBDialect
+#    hibernate:
+#      ddl-auto: validate
   ai:
     openai:
       api-key: ${openai-api-key}
+    vectorstore:
+      qdrant:
+        host: qdrant-service
+        port: 6334
+        api-key: ${openai-api-key}
+        collection-name: user-information

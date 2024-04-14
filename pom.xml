@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.soprasteria.ai.devs</groupId>
 	<artifactId>first-kubernetes-api</artifactId>
-	<version>1.0.1</version>
+	<version>1.1.0</version>
 	<name>api-tasks-app</name>
 	<description>Spring Boot app for AI devs API tasks realisation</description>
 	<properties>
@@ -22,14 +22,24 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-data-jpa</artifactId>-->
+<!--		</dependency>-->
+
 		<dependency>
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-openai-spring-boot-starter</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.ai</groupId>
+			<artifactId>spring-ai-qdrant-store-spring-boot-starter</artifactId>
+		</dependency>
+
 <!--		<dependency>-->
-<!--			<groupId>org.springframework.ai</groupId>-->
-<!--			<artifactId>spring-ai-qdrant-store-spring-boot-starter</artifactId>-->
+<!--			<groupId>org.mariadb.jdbc</groupId>-->
+<!--			<artifactId>mariadb-java-client</artifactId>-->
 <!--		</dependency>-->
 
 		<dependency>
