@@ -8,4 +8,6 @@ public interface Constants {
     String OPENAI_EMBEDDINGS_URL = "https://api.openai.com/v1/embeddings";
 
     String OPENAI_TRANSCRIPTIONS_URL = "https://api.openai.com/v1/audio/transcriptions";
+
+    String SERP_API_SEARCH_URL = "https://serpapi.com/search";
 }
