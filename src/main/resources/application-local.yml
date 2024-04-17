@@ -13,9 +13,9 @@ spring:
   ai:
     openai:
       api-key: ${openai-api-key}
-    vectorstore:
-      qdrant:
-        host: localhost
-        port: 6334
-        api-key: ${openai-api-key}
-        collection-name: user-information
+
+vectorstore:
+  qdrant:
+    host: localhost
+    port: 6334
+    collection-name: user-information
