@@ -28,7 +28,7 @@ spring:
       api-key: ${openai-api-key}
 
 serp-api:
-  api-key: 8bae5bf1f121859bfd9a0ca853bcd19161b8f3a56d5b9f0f1b349f5c7f510b46
+  api-key: ${serp-api-key}
 
 vectorstore:
   qdrant:
